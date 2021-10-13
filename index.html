@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME-GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <h1>MEME-GENERATOR</h1>
+   <div class="container">
+       <canvas id="canvas">
+       </canvas>
+       <div class="side-bar">
+           <p>Add Image</p>
+           <input type="file" id="file">
+
+           <div class="more">
+               <textarea name="caption" id="caption" cols="25" rows="3" placeholder="Type-Something"></textarea>
+               <input type="color" id="color">
+               <button id="add">Add text</button>
+
+           </div>
+           <button id="save" class="btn btn-three">SAVE</button>
+       </div>
+   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/460/fabric.js" integrity="sha512-d5yqsvICrC8y0ivNsNizSCHXjzireXYU6LmzAvcrL97GMwEn0VKx1vclEwvtsh/yPD2EcATnUG1oEtJuFcTE3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
